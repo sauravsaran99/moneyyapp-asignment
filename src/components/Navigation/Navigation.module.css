@@ -1,0 +1,25 @@
+
+.navigation {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navigationicons {
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cartCount {
+    position: absolute;
+    padding: 1px 6px;
+    background-color: orangered;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 22px;
+    z-index: 5;
+    bottom: 5px;
+    right: 12px;
+    font-size: 12px;
+}
